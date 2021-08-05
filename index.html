@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Conversor Monetário</title>
+    <style>
+        input[type=number]::-webkit-inner-spin-button, 
+        input[type=number]::-webkit-outer-spin-button { 
+            -webkit-appearance: none; 
+            margin: 0; 
+        }
+    </style>
 </head>
 <body>
     <main>
         <h1 id='descricao'></h1>
         <section>
-            <input type="number" name="" id="valor-1">
+            <input type="number" class="inputs">
             <select name="moeda" id="moeda1" class='moedas'>
             </select>
         </section>
         <section>
-            <input type="number" name="" id="valor-2">
+            <input type="number" class="inputs">
             <select name="moeda2" id="moeda2" class='moedas'>
             </select>
         </section>
